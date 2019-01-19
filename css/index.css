@@ -197,3 +197,52 @@ footer p {
     justify-content: center;
 	margin-top: 10%;
 }
+
+/* Tablet */
+
+@media (max-width: 800px) {
+    .container {
+        width: 100%; 
+        padding: 10px 2% 10px 2%;;
+    }
+        header {
+            display: flex;
+            flex-wrap: wrap;
+        }
+      
+        header nav {
+            padding: 5px 0px;
+            order: 2;
+        }
+    
+        nav a {
+            font-size: 1.6rem;
+            margin-right: 7%;
+        }
+    
+        header .logo {
+            margin: 30px auto 0;
+            order: 1;
+            margin-bottom: 40px;
+        }
+    
+        .contents {
+            margin-top: 0;
+        }
+    
+        .top-right {
+            display: none;
+        }
+    
+        .top-left {
+            width: 100%;
+        }
+    
+        .btn {
+            width: 25%;
+            font-size: 1.3rem;
+            padding: 15px 10px;
+        }
+    }
+    
+    
