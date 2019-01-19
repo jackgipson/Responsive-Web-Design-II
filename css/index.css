@@ -173,3 +173,27 @@ p {
 	margin-bottom: 2%;
 	width: 100%;
 }
+
+.bottom-content{
+	display: flex;
+}
+
+.card4, .card5 {
+	margin-top: 20px;
+	margin-left: 2%;
+}
+
+hr {
+	margin-top: 5%;
+	color: black;
+}
+
+.contact {
+	margin-top: 5%;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+	margin-top: 10%;
+}
